@@ -5,7 +5,6 @@ import os
 # Load the .env file
 load_dotenv()
 
-# Set the API key from environment
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def generate_blog_post(paragraph_topic):
